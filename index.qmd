@@ -1,0 +1,339 @@
+---
+title: "Informática II: Taller 02"
+subtitle: "Creando el Entorno de Desarrollo"
+date: "today"
+author: "Lic. Diego Medardo Saavedra García Mg. Sc."
+lang: "es"
+format:
+  revealjs:
+    incremental: true
+    slide-number: true
+    preview-links: auto
+    logo: img/LOGO-ISTJM.png
+    css: styles.css
+    footer: <https://www.istjm.edu.ec>
+    theme: dark
+    makeindex: true
+    multiplex: true
+    transition: fade
+    chalkboard: true
+    auto-stretch: false
+  html: 
+    code-fold: true
+    html-math-method: katex
+    multiplex: true
+    transition: fade
+    auto-stretch: false
+editor: visual
+    
+bibliography: Prueba.bib
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl"
+---
+
+## ¿Qué es Django?
+
+::: columns
+::: {.column width="50%"}
+![](img/django.jpg){fig-alt="Django Framework with Python." fig-align="center"}
+:::
+
+::: {.column width="50%" align="center"}
+Según @schoolQueEsDjango2022 Django es un framework de desarrollo para Python que se emplea en la creación de páginas web.
+:::
+
+::: columns
+::: {.column width="70%"}
+Es software de código abierto.
+:::
+
+::: {.column width="30%" align="center"}
+![](img/stf,small,600x600-c,0,0,1000,1000.u1.jpg){fig-alt="Django Framework with Python." fig-align="center"}
+:::
+:::
+
+::: {.column width="50%"}
+![](img/django.jpg){fig-alt="Django Framework with Python." fig-align="center"}
+:::
+
+::: {.column width="50%" align="center"}
+Cuenta con una comunidad amplia y que comparte recursos constantemente.
+:::
+:::
+
+## Django Websites.
+
+::: columns
+::: {.column width="45%"}
+[![](img/Screenshot%20from%202022-06-07%2011-51-33.png "Instagram"){fig-alt="Website de Instagram" fig-align="center"}](https://www.instagram.com/)
+:::
+
+::: {.column width="45%"}
+[![](img/Screenshot%20from%202022-06-07%2011-53-13.png){fig-alt="Website de Piterest" fig-align="center"}](https://www.pinterest.com/)
+:::
+
+::: {.column width="45%"}
+[![](img/Screenshot%20from%202022-06-07%2012-16-55.png){fig-alt="Website de Disqus" fig-align="center"}](https://www.discus.com/)
+:::
+
+::: {.column width="45%"}
+[![](img/Screenshot%20from%202022-06-07%2012-20-20.png){fig-alt="Website de Spotify" fig-align="center"}](https://www.pinterest.com/)
+:::
+:::
+
+## ¿Donde se utiliza?
+
+::: columns
+::: {.column width="50%"}
+![](img/Python-Django-Framework.jpg){fig-alt="Django Framework with Python." fig-align="center"}
+:::
+
+::: {.column width="50%"}
+Es una herramienta de desarrollo *full-stack* de aplicaciones y páginas web.
+:::
+
+::: {.column width="60%"}
+Es considerado el mejor framework de desarrollo con Python, además de ser muy demandado en la industria.
+:::
+
+::: {.column width="40%"}
+![](img/1758841.png){fig-alt="Django Framework with Python." fig-align="center"}
+:::
+:::
+
+## Historia.
+
+::: columns
+::: {.column width="70%"}
+Creado por **Adrian Holovaty** y **Simon Willison** mientras estaban trabajando en PHP y necesitaban desarrollar algo que les facilite actualizar una web de manera que puedan cumplir con los plazos de entrega.
+:::
+
+::: {.column width="30%"}
+![](img/django-framework-696x392.jpg){fig-alt="Django Framework with Python." fig-align="center"}
+:::
+
+::: {.column width="40%"}
+![](img/django-hexbin.png){fig-alt="Django Framework with Python." fig-align="center"}
+:::
+
+::: {.column width="60%"}
+En el **2005** Django framework se lanzó y la programación web fue aún más sencilla.
+:::
+:::
+
+# Caracteristicas de Django Framework.
+
+## Completo.
+
+::: columns
+::: {.column width="50%"}
+Django proporciona casi todo lo que los programadores necesitan y deseen usar.
+:::
+
+::: {.column width="50%"}
+![](img/Django-Framework-Logo.png){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+
+::: {.column width="30%"}
+![](img/django-icon-6.png){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+
+::: {.column width="70%"}
+Se trata de una herramienta que sigue unos principios de diseño consistentes y que cuenta con una buena base de documentación para facilitar el trabajo de los desarrolladores.
+:::
+:::
+
+## Escalable.
+
+::: columns
+::: {.column width="70%"}
+Django funciona por componentes sustituibles e intercambiables. Eso significa que se puede escalar con bastante facilidad.
+:::
+
+::: {.column width="30%"}
+![](img/sites-built-with-django.jpg){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+
+::: {.column width="30%"}
+![](img/django-framework.jpg){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+
+::: {.column width="70%"}
+En este sentido, un ejemplo de uso de Django lo tenemos en Instagram o Disqus, plataformas que lo han empleado para mejorar sus servidores gracias a la escalabilidad del entorno de desarrollo.
+:::
+:::
+
+## Versátil.
+
+::: columns
+::: {.column width="50%"}
+Este entorno de desarrollo se ha empleado para la creación de todo tipo de páginas web.
+:::
+
+::: {.column width="50%"}
+![](img/pros-cons-of-django-framework-e1606473912722.webp){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+
+::: {.column width="30%"}
+![](img/django.png){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+
+::: {.column width="70%"}
+Desde sistemas que son puramente para administración de contenidos, como puede ser, por ejemplo, una wiki; hasta redes sociales o páginas webs de noticias.
+:::
+:::
+
+## 
+
+::: columns
+::: {.column width="50%"}
+Y es que, Django es compatible con cualquier framework que se emplea del lado del cliente, por lo que puede mandar contenidos en cualquier formato.
+:::
+
+::: {.column width="50%"}
+![](img/5-Best-Django-Website-for-learning-for-First-Time-Developers-1140x500.jpg){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+:::
+
+## Seguro
+
+::: columns
+::: {.column width="50%"}
+Django facilita la detección y solución de posibles fallos en la seguridad en las páginas web del lado del servidor.
+:::
+
+::: {.column width="50%"}
+![](img/cropped-django-developer-career-roadmap.jpg){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+
+::: {.column width="40%"}
+![](img/django1.png){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+
+::: {.column width="60%"}
+Proporciona una administración segura de usuarios y contraseñas y evita errores que son comunes en el diseño y desarrollo back-end.
+:::
+:::
+
+## Portátil.
+
+::: columns
+::: {.column width="50%"}
+Django se puede usar en cualquier sistema y plataforma y, además, está respaldado por muchos de los proveedores de hosting que, además, suelen proporcionar la documentación necesaria para implementarlo.
+:::
+
+::: {.column width="50%"}
+![](img/Django.webp){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+:::
+
+## Mantenimiento.
+
+::: columns
+::: {.column width="50%"}
+![](img/Python-Django-Framework.jpg){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+
+::: {.column width="50%"}
+Django facilita el mantenimiento y la velocidad del mismo en el desarrollo web. Fomenta la creación de código reutilizable, lo cual simplifica, en gran medida, el trabajo de los desarrolladores web.
+:::
+:::
+
+# ¿Para que se utiliza Django?
+
+## Desarrollo Rápido.
+
+::: columns
+::: {.column width="50%"}
+![](img/Get-Started-With-Django_Watermarked.15a1e05597bc.jpg){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+
+::: {.column width="50%"}
+Como hemos visto, Django está específicamente diseñado para fomentar un desarrollo rápido con un diseño limpio y práctico.
+:::
+
+::: {.column width="60%"}
+Podemos entender rápidamente que se trata de una herramienta útil para el desarrollo de determinadas páginas y aplicaciones web.
+:::
+
+::: {.column width="40%"}
+![](img/Django-Masterclass-Build-Web-Apps-With-Python-Django-119973532.jpg){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+:::
+
+## Aplicaciones personalizables.
+
+::: columns
+::: {.column width="30%"}
+![](img/django-website.jpg){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+
+::: {.column width="70%"}
+El ejemplo más claro son las redes sociales.
+
+Plataformas que generan aplicaciones altamente personalizables.
+
+Django facilita una base sobre la que los desarrolladores pueden trabajar.
+:::
+
+::: {.column width="60%"}
+A partir de ahí, centrarse tan solo en la parte de la interacción de los usuarios con la aplicación o en qué tipo de medios se pueden compartir a través de ella.
+:::
+
+::: {.column width="40%"}
+![](img/4604108341248000-1460187966.png){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+:::
+
+## Webs con poco código.
+
+::: columns
+::: {.column width="50%"}
+![](img/Python-Django-Web-Development.webp){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+
+::: {.column width="50%"}
+Tanto Python como Django son ideales para todos aquellos desarrolladores que quieran crear una plataforma web con la menor cantidad de código posible.
+:::
+:::
+
+## Seguridad.
+
+::: columns
+::: {.column width="60%"}
+Este framework es ideal para la seguridad informática ya que oculta el código de manera predeterminada y además facilita el desarrollo de sitios que protegen las transacciones y los datos confidenciales de los clientes.
+:::
+
+::: {.column width="40%"}
+![](img/hacker-3342696_1920-e1626661535512-1024x602.jpg){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+
+::: {.column width="40%"}
+![](img/1-6.png){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+
+::: {.column width="60%"}
+Es ideal para la creación de webs o aplicaciones de ecommerce.
+:::
+:::
+
+## Aplicaciones que necesiten escalabilidad.
+
+::: columns
+::: {.column width="50%"}
+![](img/escalabilidad.png){fig-alt="New project menu in the RStudio IDE. Four types of new projects are highlighted: Quarto Project, Quarto Website, Quarto Blog, Quarto Book."}
+:::
+
+::: {.column width="50%"}
+Como hemos visto, este entorno de desarrollo es altamente escalable. Esto hace que sea ideal para hacer aplicaciones o páginas web que necesiten esta característica.
+:::
+:::
+
+## 
+
+<br><br><br><br><br><br>
+
+*Live demo...*
+
+<br><br><br><br><br><br>
+
+## Bibliografía
